@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chess Openings Explorer</title>
+
+        <!-- Libraries -->
+        <script src="lib/jquery-3.7.0.min.js"></script>
+        <script src="lib/chessboard-1.0.0.min.js"></script>
+        <link rel="stylesheet" href="lib/chessboard-1.0.0.min.css" />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.js"
+            integrity="sha384-s3XgLpvmHyscVpijnseAmye819Ee3yaGa8NxstkJVyA6nuDFjt59u1QvuEl/mecz"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/chessgame.css" />
+
+        <!-- Scripts -->
+        <script src="src/chessgame.js"></script>
+    </head>
+    <body>
+        <section class="annotate"></section>
+        <section class="chessgame">
+            <div id="chessboard" class="chessboard"></div>
+        </section>
+        <section class="graphview"></section>
+        <section class="graphmeta"></section>
+    </body>
+</html>

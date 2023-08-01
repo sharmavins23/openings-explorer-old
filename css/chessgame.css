@@ -1,0 +1,11 @@
+body > section.chessgame {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+body > section.chessgame > .chessboard {
+    width: 100%;
+}
