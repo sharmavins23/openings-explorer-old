@@ -1,9 +1,14 @@
 html {
     --bg-color: rgb(245, 245, 255);
+    --line-color: #404040;
+
+    --transition-time: 0.5s;
 }
 
 body {
     background-color: var(--bg-color);
+
+    font-family: "Roboto", sans-serif;
 
     width: 100vw;
     height: 100vh;
@@ -16,7 +21,7 @@ body {
 }
 
 body > section {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 22.5vw;
     height: 90vh;
 }
