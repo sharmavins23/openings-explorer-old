@@ -1,5 +1,5 @@
 html {
-    --bg-color: rgb(0, 0, 23);
+    --bg-color: rgb(245, 245, 255);
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 }
 
 body > section {
-    background-color: white;
+    border: 1px solid black;
     width: 22.5vw;
     height: 90vh;
 }
